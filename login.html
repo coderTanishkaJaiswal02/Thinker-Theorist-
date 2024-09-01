@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        h2 {
+            color: aliceblue;
+            background-color: rgb(0, 62, 62);
+        }
+        
+        fieldset {
+            background-color: rgb(179, 220, 217);
+            border-radius: 1px;
+        }
+        
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 align="center">Thinker Theoriest </h1>
+    </header>
+    <div class="container">
+        <form action="/ThinkerTheorist/login.php" method="POST">
+            <fieldset>
+                <h2 style="color: aliceblue; background-color: rgb(0, 62, 62); " align="center ">BLOGGING</h2>
+                <p>
+                    UserName <input type="email " name="Username" id="Username" />
+                </p>
+                <p>
+                    <label for="inputPassword" class="form-label" required="">Password </label>
+                    <input type="password" id="inputPassword" name="inputPassword" class="form-control" aria-labelledby="passwordHelpBlock">
+                    <div id="passwordHelpBlock" class="form-text">
+                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                    </div>
+
+                </p>
+                <p align="center ">
+                    <button type="submit ">Login</button>
+                    <legend class="blog " align="center " width="600 "></legend>
+                </p>
+        </form>
+    </div>
+</body>
+
+</html>
